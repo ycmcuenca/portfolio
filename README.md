@@ -1,6 +1,6 @@
 # Yosef Christian M. Cuenca
 ## B.S. Computer Science
-### ycmcuenca.github.io/cuenca-portfolio
+### ycmcuenca.github.io/portfolio
 #### Key Takeaways
 - I learned how versatile and powerful HTML and CSS could be when it comes to creating websites even on their own!
 - I have also learned the importance of using flexbox, especially when it comes to responsive design and planning for different screen sizes
