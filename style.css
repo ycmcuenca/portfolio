@@ -196,17 +196,37 @@ body{
 
 .about-1{
     display: flex;
-    height: 30rem;
-    padding: 0.625rem;
+    padding: 0rem 3.125rem 3.125rem 3.125rem;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 0rem -3.125rem;
     align-self: stretch;
-    flex-wrap: wrap;
 
     border-radius: 3.125rem;
     border-bottom: 10px solid #FFF;
     background: linear-gradient(180deg, rgba(255, 255, 255, 0.00) 0%, rgba(255, 255, 255, 0.10) 100%);
+
+    color: #FFF;
+    text-align: center;
+    font-family: BioRhyme;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.abt-1-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4.375rem;
+}
+
+.about-1-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4.375rem;
 }
 
 .about-2{
@@ -487,17 +507,17 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 1.875rem;
+    gap: 5rem;
     align-self: stretch;
 }
 
 .project{
     display: flex;
-    padding: 1.875rem;
+    padding: 3rem;
     justify-content: center;
     align-items: center;
     align-content: center;
-    gap: 1.875rem;
+    gap: 3rem;
     align-self: stretch;
     flex-wrap: wrap;
 
@@ -539,6 +559,13 @@ body{
 
 iframe{
     border-radius: 2em;
+    transition-duration: 500ms;
+    transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+
+}
+
+iframe:hover{
+    box-shadow: -20px 20px 50px 0px rgba(0, 255, 41, 0.50), 20px 20px 50px 0px rgba(255, 0, 0, 0.50), 0px -20px 50px 0px rgba(0, 71, 255, 0.50);
 }
 
 .project-desc{
