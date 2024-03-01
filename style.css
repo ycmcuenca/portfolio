@@ -16,7 +16,7 @@ body{
     align-self: stretch;
     border-radius: 30px;
     background: #FFF;
-    z-index: -1;
+    z-index: 0;
     margin-bottom: -3rem;
 }
 
