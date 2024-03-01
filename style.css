@@ -6,20 +6,18 @@ body{
     padding: 1rem;
     flex-direction: column;
     align-items: center;
-    gap: 10px;
     background: #202020;
 }
 
 .header{
-    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 10px;
     align-self: stretch;
     border-radius: 30px;
     background: #FFF;
-    z-index: 0;
+    z-index: -1;
+    margin-bottom: -3rem;
 }
 
 .navbar{
@@ -110,15 +108,15 @@ body{
     width: 690px;
     height: 661px;
     flex-shrink: 0;
-    margin-bottom: -2.5rem;
+    z-index: -2;
 }
 
 .curve{
     width:100%;
     align-self: stretch;
     fill: #202020;
-    margin-bottom: -5px;
-    margin-top: -5rem;
+    margin-top: -5.5rem;
+    z-index: 1;
 }
 
 .curve-bottom{
@@ -136,8 +134,8 @@ body{
     gap: 1rem;
     align-self: stretch;
     background: #202020;
-    margin-top: 3rem;
-    z-index: 1;
+    margin-top: -3rem;
+    z-index: 5;
 }
 
 .divider{
